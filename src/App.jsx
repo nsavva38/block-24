@@ -8,10 +8,6 @@ function App() {
   const [featPupId, setFeatPupId] = useState(null)
 
 
-  function handleClick() {
-    // some logic here
-  }
-
   const featuredPup = puppies.find((pup)=> pup.id === featPupId);
 
   return (
